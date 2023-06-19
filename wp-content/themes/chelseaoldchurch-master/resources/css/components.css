@@ -1,0 +1,45 @@
+/** Card **/
+
+.card{
+    @apply relative flex flex-col items-center bg-white shadow-lg hover:shadow-md p-4 md:p-0;
+}
+
+.card .card-header{
+    @apply relative overflow-hidden aspect-4/3 3xl:aspect-15/9 w-full;
+}
+.card .card-body{
+    @apply ml-4 md:ml-0 px-4 py-2 w-full;
+}
+.card .card-body .date{
+    @apply font-semibold my-2;
+}
+
+.card .card-body .excerpt{
+    @apply block;
+}
+
+.card-week-day-event{
+    @apply relative flex flex-col items-center bg-white shadow-lg p-4 lg:p-8;
+}
+.card-week-day-event .card-header{
+    @apply w-full text-center ;
+}
+
+.card-week-day-event .card-body p{
+    @apply font-light text-primary text-base;
+}
+.card-week-day-event .card-body .introduction p{
+    @apply italic;
+}
+.card-week-day-event .card-body p.event-meta {
+    @apply text-black;
+}
+.card-week-day-event.is-sunday{
+    @apply bg-primary text-white;
+}
+.card-week-day-event.is-sunday .card-body p{
+    @apply text-white;
+}
+.card-week-day-event.is-sunday .card-body p{
+    @apply text-white;
+}

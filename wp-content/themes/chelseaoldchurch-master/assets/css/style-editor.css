@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.is-style-outline,
+.is-style-fill,
+.is-style-download-button{
+    transition-duration: 400ms;
+    transition: ease-in-out;
+}
+
+.is-style-outline{
+    border-width:0;
+}
+.is-style-outline > .wp-block-button__link{
+    border:4px solid var(--wp--preset--color--primary);
+}
+
+.is-style-outline:hover > .wp-block-button__link{
+    border-color:currentcolor;
+}
+
+.is-style-fill:hover > .wp-block-button__link,
+.is-style-download-button:hover > .wp-block-button__link{
+    background-color:transparent;
+}
+
+ul > li::marker{
+    color:var(--wp--preset--color--primary);
+}
+
+ol > li::marker{
+    color:var(--wp--preset--color--primary);
+}

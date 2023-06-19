@@ -1,0 +1,17 @@
+Database Detail: 
+
+Database name - wordpress
+Database username - root
+Database password - blank
+Database host - localhost
+
+
+
+Admin Detail:
+
+U: wordpress-admin
+P: admin@1234
+Email id: sagar@marketingsuccess.com
+
+
+http://localhost/wordpress/
